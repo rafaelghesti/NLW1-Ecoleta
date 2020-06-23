@@ -56,7 +56,6 @@ server.post ("/savepoint", (req, res) => {
         req.body.items
     ]
 
-
     function afterInsertData(err) {
         if (err) {
             return console.log (err)
